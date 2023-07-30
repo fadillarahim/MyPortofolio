@@ -19,7 +19,7 @@ const Hero = () => {
                     data-aos="fade-up" 
                     data-aos-duration="1500"
                     className='text-headingColor font-[800] text-[1.8rem] sm:text-[40px] leading-[35px] sm:leading-[46px] mt-5' >
-                        I'm Fadilla Rahim <br />Machine Learning Engineer and Web Developer
+                        I'm Fadilla Rahim <br />Machine Learning and Web Developer
                     </h1>
 
                     <div 
@@ -41,7 +41,7 @@ const Hero = () => {
                     <p 
                         data-aos="fade-left" 
                         data-aos-duration="1500"
-                        className='flex gap-2 text-headingColor mt-12 font-[500] text-[15px] leading-7 sm:pl-14 sm:pr-10'>
+                        className='flex gap-2 text-headingColor mt-12 font-[500] text-[15px] leading-7 sm:pl-7 sm:pr-10'>
                             <span>
                             <i class="ri-apps-line"></i>
                             </span>
@@ -83,9 +83,23 @@ const Hero = () => {
                     <div className='md:basis-1/5 flex justify-between text-center mt-10 flex-wrap gap-3 md:mt-0 md:flex-col md:justify-end md:text-end'>
                         <div className="mb-10">
                             <h2 className='text-headingColor font-[700] text-[32px]'>
-                                <CountUp start={0} end={6} duration={2} suffix="+" />
+                                <CountUp start={0} end={2} duration={2} suffix="+" />
                             </h2>
+                            <h4 className='text-headingColor font-[500] text-[16px]'>Year of experiences</h4>
                         </div>
+                        <div className="mb-10">
+                            <h2 className='text-headingColor font-[700] text-[32px]'>
+                                <CountUp start={0} end={80} duration={2} suffix="%" />
+                            </h2>
+                            <h4 className='text-headingColor font-[500] text-[16px]'>Python</h4>
+                        </div>
+                        <div className="mb-10">
+                            <h2 className='text-headingColor font-[700] text-[32px]'>
+                                <CountUp start={0} end={85} duration={2} suffix="%" />
+                            </h2>
+                            <h4 className='text-headingColor font-[500] text-[16px]'>Javascript</h4>
+                        </div>
+                        
                     </div>
                 {/* {Hero content right End} */}
             </div>
