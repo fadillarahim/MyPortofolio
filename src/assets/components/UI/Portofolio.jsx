@@ -54,22 +54,22 @@ const Portofolio = () => {
                 </div>
                 <div className="flex gap-3">
                     <button 
-                    className="text-smallTextColor border border-solid border-smallTextColor py-2 px-4 rounded-[8px]"
+                    className="text-smallTextColor border border-solid border-smallTextColor py-2 px-4 rounded-[8px] hover:bg-smallTextColor hover:text-white"
                     onClick={() => setSelectTab('all')}>
                         All
                     </button>
                     <button 
-                    className="text-smallTextColor border border-solid border-smallTextColor py-2 px-4 rounded-[8px]"
+                    className="text-smallTextColor border border-solid border-smallTextColor py-2 px-4 rounded-[8px] hover:bg-smallTextColor hover:text-white"
                     onClick={() => setSelectTab('web-design')}>
                         Web Dev
                     </button>
                     <button 
-                    className="text-smallTextColor border border-solid border-smallTextColor py-2 px-4 rounded-[8px]"
+                    className="text-smallTextColor border border-solid border-smallTextColor py-2 px-4 rounded-[8px] hover:bg-smallTextColor hover:text-white"
                     onClick={() => setSelectTab('machine-learning')}>
                         Machine Learning
                     </button>
                     <button 
-                    className="text-smallTextColor border border-solid border-smallTextColor py-2 px-4 rounded-[8px]"
+                    className="text-smallTextColor border border-solid border-smallTextColor py-2 px-4 rounded-[8px] hover:bg-smallTextColor hover:text-white"
                     onClick={() => setSelectTab('ux-design')}>
                         UI/UX
                     </button>

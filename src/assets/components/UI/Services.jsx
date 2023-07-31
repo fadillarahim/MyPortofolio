@@ -10,7 +10,7 @@ const Services = () => {
         <div className="container lg:pt-5">
             <div className="text-center">
                 <h2 className='text-headingColor font-[800] text-[2.4rem] mb-5'>What do I help</h2>
-                <p className='lg:max-w-[600px] lg:mx-auto text-headingColor font-[500] text-[16px] leading-7'>Have an interest in learning more about Machine Learning, Data Science, Data Analytics, Business Development for companies to optimally improve their brand, and Software Engineering especially web development
+                <p className='lg:max-w-[600px] lg:mx-auto text-headingColor font-[500] text-[16px] leading-7'>I Have an interest in learning more about Machine Learning, Data Science, Data Analytics, Business Development for companies to optimally improve their brand, and Software Engineering especially web development
                 </p>
             </div>
 

@@ -9,6 +9,7 @@ import mekaar from "../images/mekaar.png"
 import sibias from "../images/sibias.png"
 import faceEmotionRecog from "../images/faceRecog.png"
 import Chotrack from "../images/ChoTracker.jpg"
+import ChoBot from "../images/ChoBot.png"
 
 const portofolios = [
     {
@@ -53,13 +54,13 @@ const portofolios = [
       },
       {
         id: "05",
-        imgUrl: portfolioImg03,
-        category: "Web Dev",
-        title: "Landing Page",
+        imgUrl: ChoBot,
+        category: "Machine Learning",
+        title: "ChoBot (ChoTracker Chat Bot)",
         description:
-          "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-        technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
-        siteUrl: "#",
+          "ChoBot is one of the Chat Bot features in the ChoTracker apps. ChoBot is a machine learning feature built using the Natural Processing Language (NLP) concept using several tools such as Tensorflow and NLTK. This feature allows users to ask questions about cholesterol in the chat feature and the system will answer them automatically.",
+        technologies: ["Python", "Tensorflow", "Keras", "Numpy", "NLTK", "Pickle"],
+        siteUrl: "https://github.com/ChoTracker-C23-PS308/ChoTracker-ML/blob/fadil/ChatBot_Model_2.ipynb",
       },
     
       {
