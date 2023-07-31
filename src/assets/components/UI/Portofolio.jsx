@@ -27,12 +27,17 @@ const Portofolio = () => {
         }
 
         if(selectTab === 'web-design'){
-            const filterData = data.filter(item => item.category === 'Web Design')
+            const filterData = data.filter(item => item.category === 'Web Dev')
             setPortofolios(filterData)
         }
 
         if(selectTab === 'ux-design'){
             const filterData = data.filter(item => item.category === 'ux')
+            setPortofolios(filterData)
+        }
+
+        if(selectTab === 'machine-learning'){
+            const filterData = data.filter(item => item.category === 'Machine Learning')
             setPortofolios(filterData)
         }
         
@@ -60,7 +65,7 @@ const Portofolio = () => {
                     </button>
                     <button 
                     className="text-smallTextColor border border-solid border-smallTextColor py-2 px-4 rounded-[8px]"
-                    onClick={() => setSelectTab('all')}>
+                    onClick={() => setSelectTab('machine-learning')}>
                         Machine Learning
                     </button>
                     <button 
