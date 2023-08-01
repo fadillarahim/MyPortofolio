@@ -23,7 +23,7 @@ function Footer() {
 
           <div className="w-full sm:w-1/2">
             <p className="text-gray-300 leading-7 mt-4 sm:mt-0">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia soluta esse blanditiis, praesentium obcaecati animi, modi officiis corporis eligendi laboriosam iste. 
+              We all make mistakes. The key is admitting it, learning, and moving on. The real sin is to ignore mistakes, or even worse, to try to hide them. <span className='italic bold'> - Robert Zoellick</span> 
             </p>
 
             <div className="flex items-center gap-4 flex-wrap md:gap-8 mt-10">

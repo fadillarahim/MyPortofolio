@@ -1,15 +1,18 @@
-import portfolioImg01 from "../images/portfolio-01.jpg";
-import portfolioImg02 from "../images/portfolio-02.jpg";
-import portfolioImg03 from "../images/portfolio-03.jpg";
-import portfolioImg04 from "../images/portfolio-04.jpg";
-import portfolioImg05 from "../images/portfolio-05.jpg";
-import portfolioImg06 from "../images/portfolio-06.jpg";
-import portfolioImg07 from "../images/portfolio-07.jpg";
+// import portfolioImg01 from "../images/portfolio-01.jpg";
+// import portfolioImg02 from "../images/portfolio-02.jpg";
+// import portfolioImg03 from "../images/portfolio-03.jpg";
+// import portfolioImg04 from "../images/portfolio-04.jpg";
+// import portfolioImg05 from "../images/portfolio-05.jpg";
+// import portfolioImg06 from "../images/portfolio-06.jpg";
+// import portfolioImg07 from "../images/portfolio-07.jpg";
 import mekaar from "../images/mekaar.png"
 import sibias from "../images/sibias.png"
-import faceEmotionRecog from "../images/faceRecog.png"
-import Chotrack from "../images/ChoTracker.jpg"
+import faceEmotionRecog from "../images/FaceEmotionRecog.png"
+import Chotrack from "../images/ChoTracker.png"
 import ChoBot from "../images/ChoBot.png"
+import Aleka from "../images/Aleka.png"
+import Modaa from "../images/Modaa.png"
+import SaleroBasamo from "../images/SaleroBasamo.png"
 
 const portofolios = [
     {
@@ -65,94 +68,35 @@ const portofolios = [
     
       {
         id: "06",
-        imgUrl: portfolioImg06,
-        category: "Ux",
-        title: "Online Therapy Website",
+        imgUrl: Aleka,
+        category: "Web Dev",
+        title: "Aleka.com",
         description:
-          "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-        technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
-        siteUrl: "#",
+          "Aleka is an e-commerce platform specifically for event organizers selling their services. Aleka is designed not only for wedding organizers but also for event organizers for other events such as government events, music festivals and others.",
+        technologies: ["HTML", "CSS", "PHP", "MySQL", "Bootstrap"],
+        siteUrl: "https://www.figma.com/proto/zAs1SpVxCpDRMSMgBqb0ez/ALEKA.COM?type=design&node-id=1-2449&t=LMEl0bFdG7AQ8PNH-1&scaling=scale-down-width&page-id=0%3A1&starting-point-node-id=1%3A2449&mode=design",
       },
       {
         id: "07",
-        imgUrl: portfolioImg07,
-        category: "Web Dev",
-        title: "Appointment Booking Website",
+        imgUrl: Modaa,
+        category: "ux",
+        title: "Modaa",
         description:
-          "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-        technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
-        siteUrl: "#",
+          "Modaa is an e-commerce that specializes in selling luxury and well-known brands. All items sold on Modaa are branded brands and not replicas or fakes. The Modaa is designed using Figma tools on the basis of a mobile application frame.",
+        technologies: ["Figma", "Canva"],
+        siteUrl: "https://www.figma.com/file/HYDKUc9BJEtj3iFlCW0wdV/MODAA-KELOMPOK-4?type=design&node-id=0%3A1&mode=design&t=vk0yKy9cujhDjK3N-1",
       },
       {
         id: "08",
-        imgUrl: portfolioImg01,
-        category: "Web Dev",
-        title: "Finance Technology Website",
-        description:
-          "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-        technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
-        siteUrl: "#",
-      },
-      {
-        id: "09",
-        imgUrl: portfolioImg02,
-        category: "Ux",
-        title: "Video Conference Website",
-        description:
-          "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-        technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
-        siteUrl: "#",
-      },
-      {
-        id: "10",
-        imgUrl: portfolioImg03,
-        category: "Ux",
-        title: "File Sharing Website",
-        description:
-          "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-        technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
-        siteUrl: "#",
-      },
-      {
-        id: "11",
-        imgUrl: portfolioImg04,
-        category: "Web Dev",
-        title: "Landing Page",
-        description:
-          "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-        technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
-        siteUrl: "#",
-      },
-      {
-        id: "12",
-        imgUrl: portfolioImg05,
-        category: "Web Dev",
-        title: "Landing Page",
-        description:
-          "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-        technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
-        siteUrl: "#",
-      },
-      {
-        id: "13",
-        imgUrl: portfolioImg06,
-        category: "Web Dev",
-        title: "Online Therapy Website",
-        description:
-          "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-        technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
-        siteUrl: "#",
-      },
-      {
-        id: "14",
-        imgUrl: portfolioImg07,
+        imgUrl: SaleroBasamo,
         category: "ux",
-        title: "Appointment Booking Website",
+        title: "Salero Basamo",
         description:
-          "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-        technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
-        siteUrl: "#",
+          "Salero Basamo is a Padang restaurant application whose name is taken from the name of the restaurant itself. This application is mobile-based and has the main function for ordering food and table reservations online. This application is designed as a solution to implementing social distancing during the Covid-19 period.",
+        technologies: ["Figma", "Canva"],
+        siteUrl: "https://www.figma.com/proto/ESKeAiUBayuR1REcLBc9iB/APBO?type=design&node-id=1-335&t=XSv3lqdUEbAAAsA0-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A335&show-proto-sidebar=1&mode=design",
       },
+      
 ];
 
 export default portofolios;
