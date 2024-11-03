@@ -61,7 +61,7 @@ const portofolios = [
         category: "Machine Learning",
         title: "ChoBot (ChoTracker Chat Bot)",
         description:
-          "ChoBot is one of the Chat Bot features in the ChoTracker apps. ChoBot is a machine learning feature built using the Natural Processing Language (NLP) concept using several tools such as Tensorflow and NLTK. This feature allows users to ask questions about cholesterol in the chat feature and the system will answer them automatically.",
+          "ChoBot is one of the Chat Bot features in the ChoTracker apps. ChoBot is a machine learning feature built using the Natural Language Processing (NLP) concept using several tools such as Tensorflow and NLTK. This feature allows users to ask questions about cholesterol in the chat feature and the system will answer them automatically.",
         technologies: ["Python", "Tensorflow", "Keras", "Numpy", "NLTK", "Pickle"],
         siteUrl: "https://github.com/ChoTracker-C23-PS308/ChoTracker-ML/blob/fadil/ChatBot_Model_2.ipynb",
       },

@@ -9,6 +9,8 @@ import Hero from './assets/components/UI/Hero';
 import Services from './assets/components/UI/Services';
 import Portofolio from './assets/components/UI/Portofolio';
 import Contact from './assets/components/UI/Contact';
+import Experience from './assets/components/UI/Experience';
+import { ScrollToTopButton } from './assets/Moleculs';
 
 function App() {
 
@@ -24,9 +26,11 @@ function App() {
     <main>
       <Hero />
       <Services />
+      <Experience />
       <Portofolio />
       <Contact />
     </main>
+    <ScrollToTopButton /> {/* Add the button here */}
     <Footer/>
   </>
   );

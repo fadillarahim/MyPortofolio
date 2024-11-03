@@ -5,7 +5,7 @@ import CountUp from 'react-countup'
 const Hero = () => {
   return (
     <section className='pt-0' id='about'>
-        <div className='container pt-14'>
+        <div className='container pt-20'>
             <div className='md:flex items-center justify-between sm:flex-col md:flex-row'>
                 {/* {Hero Left Content} */}
                 <div className="w-full md:basis-1/2">
@@ -13,13 +13,13 @@ const Hero = () => {
                     data-aos="fade-right" 
                     data-aos-duration="1500"
                     className='text-headingColor font-[600] text-[16px]'>
-                        Hello Welcome
+                        Hey there! 
                     </h5>
                     <h1 
                     data-aos="fade-up" 
                     data-aos-duration="1500"
                     className='text-headingColor font-[800] text-[1.8rem] sm:text-[40px] leading-[35px] sm:leading-[46px] mt-5' >
-                        I'm Fadilla Rahim <br />Machine Learning and Web Developer
+                        I'm Fadilla Rahim <br />Software Engineer and Machine Learning Enthusiast
                     </h1>
 
                     <div 
@@ -41,14 +41,14 @@ const Hero = () => {
                     <p 
                         data-aos="fade-left" 
                         data-aos-duration="1500"
-                        className='flex gap-2 text-headingColor mt-12 font-[500] text-[15px] leading-7 sm:pl-7 sm:pr-10'>
+                        className='flex gap-2 text-headingColor mt-5 font-[500] text-[15px] leading-7 sm:pl-7 sm:pr-10'>
                             <span>
                             <i class="ri-apps-line"></i>
                             </span>
-                            An undergraduate student majoring in Informatics Engineering who is eager to expand his potential in terms of academics and real-world work experience.
+                            Informatics Engineering graduate driven to enhance skills and gain impactful, real-world experience through continuous learning and innovative problem-solving.
                     </p>
 
-                    <div className="flex items-center gap-9 mt-14">
+                    <div className="flex items-center gap-9 mt-6">
                         <span className='text-smallTextColor text-[15px] font-[500]'>
                             Follow me:
                         </span>
