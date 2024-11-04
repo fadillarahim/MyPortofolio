@@ -1,27 +1,10 @@
 import React, { useEffect, useRef } from "react";
 
 const Header = () => {
-  // const headerRef = useRef(null);
+
   const menuRef = useRef(null);
 
-  // const stickyHeaderFunc = () => {
-  //     window.addEventListener('scroll', () => {
-  //         if(
-  //             document.body.scrollTop > 80 || document.documentElement.scrollTop > 80
-  //         ) {
-  //             headerRef.current.classList.add('sticky__header');
-  //         } else {
-  //             headerRef.current.classList.remove('sticky__header');
-  //         }
-  //     });
-
-  // };
-
-  // useEffect(() => {
-  //     stickyHeaderFunc()
-
-  //     return window.removeEventListener('scroll', stickyHeaderFunc)
-  // }, []);
+  
 
   const handleClick = (e) => {
     e.preventDefault();
@@ -39,7 +22,7 @@ const Header = () => {
 
   return (
     <header
-      // ref={headerRef}
+      
       className="w-full h-[80px] leading-[80px] flex items-center"
     >
       <div className="container">
