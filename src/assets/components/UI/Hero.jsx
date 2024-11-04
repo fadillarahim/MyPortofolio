@@ -89,9 +89,9 @@ const Hero = () => {
                         </div>
                         <div className="mb-10">
                             <h2 className='text-headingColor font-[700] text-[32px]'>
-                                <CountUp start={0} end={80} duration={2} suffix="%" />
+                                <CountUp start={0} end={10} duration={1} />
                             </h2>
-                            <h4 className='text-headingColor font-[500] text-[16px]'>Python</h4>
+                            <h4 className='text-headingColor font-[500] text-[16px]'>Projects</h4>
                         </div>
                         <div className="mb-10">
                             <h2 className='text-headingColor font-[700] text-[32px]'>

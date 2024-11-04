@@ -74,6 +74,9 @@ function Footer() {
               <a href="#services">Services</a>
             </li>
             <li className="text-gray-400 font-[400]">
+              <a href="#experience">Experience</a>
+            </li>
+            <li className="text-gray-400 font-[400]">
               <a href="#portofolio">Portofolio</a>
             </li>
             <li className="text-gray-400 font-[400]">

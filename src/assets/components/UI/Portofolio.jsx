@@ -8,36 +8,22 @@ const Portofolio = () => {
   const [portofolios, setPortofolios] = useState(data);
   const [selectTab, setSelectTab] = useState("all");
   const [showModal, setShowModal] = useState(false);
-  const [activeID, setActiveID] = useState(null);
+  const [selectedPortofolio, setSelectedPortofolio] = useState({});
 
   const loadMoreHandler = () => {
     setNextItems((prev) => prev + 3);
   };
 
-  const showModalHandler = (id) => {
+  const showModalHandler = (item) => {
     setShowModal(true);
-    setActiveID(id);
+    setSelectedPortofolio(item);
   };
 
   useEffect(() => {
     if (selectTab === "all") {
       setPortofolios(data);
-    }
-
-    if (selectTab === "web-design") {
-      const filterData = data.filter((item) => item.category === "Web Dev");
-      setPortofolios(filterData);
-    }
-
-    if (selectTab === "ux-design") {
-      const filterData = data.filter((item) => item.category === "ux");
-      setPortofolios(filterData);
-    }
-
-    if (selectTab === "machine-learning") {
-      const filterData = data.filter(
-        (item) => item.category === "Machine Learning"
-      );
+    } else {
+      const filterData = data.filter((item) => item.category.includes(selectTab));
       setPortofolios(filterData);
     }
   }, [selectTab]);
@@ -60,9 +46,15 @@ const Portofolio = () => {
             </button>
             <button
               className="text-smallTextColor border border-solid border-smallTextColor py-2 px-4 rounded-[8px] hover:bg-smallTextColor hover:text-white"
-              onClick={() => setSelectTab("web-design")}
+              onClick={() => setSelectTab("web")}
             >
               Web Dev
+            </button>
+            <button
+              className="text-smallTextColor border border-solid border-smallTextColor py-2 px-4 rounded-[8px] hover:bg-smallTextColor hover:text-white"
+              onClick={() => setSelectTab("mobile")}
+            >
+              Mobile
             </button>
             <button
               className="text-smallTextColor border border-solid border-smallTextColor py-2 px-4 rounded-[8px] hover:bg-smallTextColor hover:text-white"
@@ -72,7 +64,7 @@ const Portofolio = () => {
             </button>
             <button
               className="text-smallTextColor border border-solid border-smallTextColor py-2 px-4 rounded-[8px] hover:bg-smallTextColor hover:text-white"
-              onClick={() => setSelectTab("ux-design")}
+              onClick={() => setSelectTab("design")}
             >
               UI/UX
             </button>
@@ -96,7 +88,7 @@ const Portofolio = () => {
                 <div className="w-full h-full flex items-center justify-center">
                   <button
                     className="text-white bg-headingColor hover:bg-smallTextColor py-2 px-4 rounded-[8px] font-[400] ease-in duration-200"
-                    onClick={() => showModalHandler(portofolio.id)}
+                    onClick={() => showModalHandler(portofolio)}
                   >
                     See Details
                   </button>
@@ -118,7 +110,9 @@ const Portofolio = () => {
         </div>
       </div>
 
-      {showModal && <Modal setShowModal={setShowModal} activeID={activeID} />}
+      {showModal && (
+        <Modal setShowModal={setShowModal} portofolio={selectedPortofolio} />
+      )}
     </section>
   );
 };
